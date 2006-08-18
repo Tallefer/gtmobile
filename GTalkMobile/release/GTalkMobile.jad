@@ -1,0 +1,9 @@
+MIDlet-1: GTalkMIDlet,,com.crackj2ee.midp.gtalk.GTalkMIDlet
+MIDlet-Jar-Size: 43347
+MIDlet-Jar-URL: GTalkMobile.jar
+MIDlet-Name: GTalkMobile Midlet Suite
+MIDlet-Permissions: javax.microedition.io.Connector.ssl
+MIDlet-Vendor: Midlet Suite Vendor
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
