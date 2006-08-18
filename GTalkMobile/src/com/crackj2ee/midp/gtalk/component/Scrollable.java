@@ -1,0 +1,35 @@
+/**
+ * Copyright 2006 the original author or authors.
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.crackj2ee.midp.gtalk.component;
+
+import javax.microedition.lcdui.Graphics;
+
+/**
+ * Interface for ScrollBar.
+ * 
+ * @author xuefeng
+ */
+public interface Scrollable {
+
+    /**
+     * When scroll range or current value changed, invoke this method to notify scroll bar.
+     * @param max If max is 0, value will be ignored.
+     * @param value Value will automatically set between 0 to max.
+     */
+    void setScroll(int max, int value);
+
+    void paint(Graphics g);
+}
