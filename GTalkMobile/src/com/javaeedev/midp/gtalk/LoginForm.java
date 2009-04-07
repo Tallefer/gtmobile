@@ -24,7 +24,7 @@ import javax.microedition.lcdui.TextField;
 /**
  * Login form.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class LoginForm extends Form implements CommandListener {
 

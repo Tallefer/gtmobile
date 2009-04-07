@@ -18,7 +18,7 @@ package com.javaeedev.midp.gtalk.jabber;
 /**
  * Represent a Friend object and hold name, email, status.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class Friend {
 

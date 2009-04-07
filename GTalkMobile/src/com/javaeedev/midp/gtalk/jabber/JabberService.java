@@ -22,7 +22,7 @@ import javax.microedition.io.*;
 /**
  * Core background service that handles all network communications over ssl.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class JabberService {
 

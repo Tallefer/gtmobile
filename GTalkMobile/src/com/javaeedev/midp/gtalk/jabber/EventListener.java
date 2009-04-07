@@ -18,7 +18,7 @@ package com.javaeedev.midp.gtalk.jabber;
 /**
  * Listener for jabber events.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public interface EventListener {
 

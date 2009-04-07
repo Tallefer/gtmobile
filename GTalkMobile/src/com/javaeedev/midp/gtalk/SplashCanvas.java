@@ -24,7 +24,7 @@ import javax.microedition.lcdui.Image;
 /**
  * Welcome screen that display a logo.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class SplashCanvas extends Canvas implements Runnable {
 

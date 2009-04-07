@@ -23,7 +23,7 @@ import com.javaeedev.midp.gtalk.jabber.*;
 /**
  * Main interface.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class MainCanvas extends Canvas implements EventListener, CommandListener {
 
