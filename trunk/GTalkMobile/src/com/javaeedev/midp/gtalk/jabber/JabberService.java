@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crackj2ee.midp.gtalk.jabber;
+package com.javaeedev.midp.gtalk.jabber;
 
 import java.io.*;
 import java.util.Vector;
@@ -182,7 +182,7 @@ public class JabberService {
         public void run() {
             try {
                 Main.debug("begin ssl...");
-                connection = (SecureConnection)Connector.open("ssl://64.233.167.125:5223");
+                connection = (SecureConnection)Connector.open("ssl://talk.google.com:5223");
                 connection.setSocketOption(SocketConnection.LINGER, 5);
                 Main.debug("socket connected.");
                 reader = new InputStreamReader(connection.openInputStream(), "UTF-8");
