@@ -100,29 +100,15 @@ public class MainCanvas extends Canvas implements EventListener, CommandListener
             throw new Error("Failed loading resource.");
         }
         friendList = new FriendList(0, BASE_TOP, SCALE_WIDTH, SCALE_HEIGHT, font, status, scroll);
-        //friendList.addFriend("asklxf@163.com", "这是一个very long String, and");
-        //friendList.addFriend("gtalk.mobile@gmail.com", "GT-1982");
-        //friendList.addFriend("askxuefeng@msn.com", "liao xuefeng");
-        //friendList.addFriend("asklxf@abc.com", "雪峰");
-        //friendList.addFriend("a@abc.com", "a.micheal");
-        //friendList.addFriend("b@abc.com", "b.micheal");
-        //friendList.addFriend("c@abc.com", "c.micheal");
-        //friendList.addFriend("d@abc.com", "d.micheal");
-        //friendList.addFriend("e@abc.com", "micheal-e");
-        //friendList.addFriend("end@abc.com", "end");
 
         messageList = new MessageList(0, BASE_TOP, SCALE_WIDTH, SCALE_HEIGHT, font, scroll);
-        //messageList.visible = true;
-        //String s = "这是一个very long String!";
-        //String s2 = "你好！我收到了你的Email，谢谢！会议定于下周一上午10:15，清华创新大厦，请准时参加。";
-        //messageList.addSentMessage("goodbye!");
-        //messageList.addReceivedMessage("大不列颠女王伊丽莎白", "live@crackj2ee.com", s);
-        //messageList.addReceivedMessage("live", "live2@crackj2ee.com", s2);
 
         empty = new EmptyPanel(0, BASE_TOP, width, SCALE_HEIGHT, font);
 
-        tab = new TabSelect(0, 1, width, font,
-                new ComponentUI[] {empty, friendList, messageList, empty});
+        tab = new TabSelect(
+                0, 1, width, font,
+                new ComponentUI[] {empty, friendList, messageList, empty}
+        );
         tab.setVisible(true);
 
         // init service:
