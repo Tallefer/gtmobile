@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crackj2ee.midp.gtalk.component;
+package com.javaeedev.midp.gtalk.component;
 
 import javax.microedition.lcdui.Font;
 import javax.microedition.lcdui.Graphics;
 
-import com.crackj2ee.midp.gtalk.MainCanvas;
+import com.javaeedev.midp.gtalk.MainCanvas;
 
 /**
  * Use this panel to a default implementation of ComponentUI.

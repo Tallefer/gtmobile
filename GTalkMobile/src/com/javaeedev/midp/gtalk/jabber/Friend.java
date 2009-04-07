@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crackj2ee.midp.gtalk.jabber;
+package com.javaeedev.midp.gtalk.jabber;
 
 /**
  * Represent a Friend object and hold name, email, status.
@@ -33,7 +33,7 @@ public class Friend {
     private int state;
 
     public Friend(String email, String name, String displayName) {
-        this.email = email;
+        this.email = email.toLowerCase();
         this.name = name;
         this.displayName = displayName;
         this.state = OFFLINE;

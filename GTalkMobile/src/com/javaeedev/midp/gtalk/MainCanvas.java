@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.crackj2ee.midp.gtalk;
+package com.javaeedev.midp.gtalk;
 
 import javax.microedition.lcdui.*;
 
-import com.crackj2ee.midp.gtalk.component.*;
-import com.crackj2ee.midp.gtalk.jabber.*;
+import com.javaeedev.midp.gtalk.component.*;
+import com.javaeedev.midp.gtalk.jabber.*;
 
 /**
  * Main interface.
