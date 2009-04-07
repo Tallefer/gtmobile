@@ -20,7 +20,7 @@ import javax.microedition.lcdui.*;
 /**
  * Let user enter some text as new message.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class SendMessageTextBox extends TextBox implements CommandListener {
 

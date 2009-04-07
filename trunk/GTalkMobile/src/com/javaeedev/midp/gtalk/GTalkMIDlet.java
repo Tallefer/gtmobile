@@ -22,8 +22,7 @@ import javax.microedition.midlet.MIDlet;
 /**
  * Main MIDlet.
  * 
- * @author xuefeng
- *
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class GTalkMIDlet extends MIDlet {
 

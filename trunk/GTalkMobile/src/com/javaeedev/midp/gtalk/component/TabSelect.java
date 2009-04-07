@@ -24,7 +24,7 @@ import com.javaeedev.midp.gtalk.MainCanvas;
 /**
  * Draw a Tab-styled panels.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class TabSelect extends ComponentUI {
 

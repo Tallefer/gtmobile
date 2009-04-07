@@ -26,7 +26,7 @@ import com.javaeedev.midp.gtalk.MainCanvas;
 /**
  * Paint a scroll bar.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class ScrollBar extends ComponentUI implements Scrollable {
 

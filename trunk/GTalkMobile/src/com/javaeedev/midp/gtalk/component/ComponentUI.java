@@ -21,7 +21,7 @@ import javax.microedition.lcdui.Graphics;
 /**
  * Super class for all low-level components paint on Canvas.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public abstract class ComponentUI {
 

@@ -20,7 +20,7 @@ import javax.microedition.lcdui.Graphics;
 /**
  * Interface for ScrollBar.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public interface Scrollable {
 

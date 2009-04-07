@@ -27,7 +27,7 @@ import com.javaeedev.midp.gtalk.jabber.Friend;
 /**
  * List & manage all friends.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class FriendList extends ComponentUI {
 

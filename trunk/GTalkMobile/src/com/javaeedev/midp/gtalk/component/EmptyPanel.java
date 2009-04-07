@@ -23,7 +23,7 @@ import com.javaeedev.midp.gtalk.MainCanvas;
 /**
  * Use this panel to a default implementation of ComponentUI.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class EmptyPanel extends ComponentUI {
 

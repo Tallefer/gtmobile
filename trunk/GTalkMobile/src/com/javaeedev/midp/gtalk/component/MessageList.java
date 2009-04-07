@@ -25,7 +25,7 @@ import com.javaeedev.midp.gtalk.MainCanvas;
 /**
  * List all recent messages.
  * 
- * @author xuefeng
+ * @author Michael Liao (askxuefeng@gmail.com)
  */
 public class MessageList extends ComponentUI {
 
